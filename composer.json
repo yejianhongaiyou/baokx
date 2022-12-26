@@ -1,0 +1,21 @@
+{
+    "name": "yhh/baokx",
+    "description": "test",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yjh",
+            "email": "yejianhongai@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload-dev":{
+        "psr-4":{
+            "BaOkx\\":"src/"
+        }
+    }
+}
